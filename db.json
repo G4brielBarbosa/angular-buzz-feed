@@ -1,0 +1,75 @@
+{  
+  "buzz": [
+    {
+      "title": "Qual tipo de clima combina com você?",
+      "questions": [
+      {
+        "id": 1,
+        "question": "Escolha uma atividade para se distrair no tempo livre:",
+        "options": [
+          {"id": 1, "name": "Fazer exercícios","img":"", "alias":"A"},
+          {"id": 2, "name": "Maratonar séries e filmes","img":"", "alias":"C"},
+          {"id": 3, "name": "Ficar olhando lojas online e não comprar nada","img":"", "alias":"A"},
+          {"id": 4, "name": "Dormir","img":"", "alias":"B"}
+        ]
+      },
+      {
+        "id": 2,
+        "question": "O que você gostaria de comer agora?",
+        "options": [
+          {"id": 1, "name": "Algo salgado","img":"", "alias":"A"},
+          {"id": 2, "name": "Algo doce","img":"", "alias":"B"},
+          {"id": 3, "name": "Algo salgado e depois algo doce","img":"", "alias":"B"},
+          {"id": 4, "name": "Nada, tô sem fome","img":"", "alias":"C"}
+        ]
+      },
+      {
+        "id": 3,
+        "question": "Quando foi a última vez que você deu uma gargalhada?",
+        "options": [
+          {"id": 1, "name": "Hoje mesmo","img":"", "alias":"A"},
+          {"id": 2, "name": "Já faz umas semanas","img":"", "alias":"C"},
+          {"id": 3, "name": "Já faz uns meses","img":"", "alias":"C"},
+          {"id": 4, "name": "Eita, nem lembro","img":"", "alias":"B"}
+        ]
+      },
+      {
+        "id": 4,
+        "question": "E quando foi a última vez que você chorou?",
+        "options": [
+          {"id": 1, "name": "Hoje mesmo","img":"", "alias":"B"},
+          {"id": 2, "name": "Já faz umas semanas","img":"", "alias":"B"},
+          {"id": 3, "name": "Já faz uns meses","img":"", "alias":"C"},
+          {"id": 4, "name": "Eita, nem lembro","img":"", "alias":"A"}
+        ]
+      },
+      {
+        "id": 5,
+        "question": "Escolha uma plantinha:",
+        "options": [
+          {"id": 1, "name": "Espada-de-são-jorge","img":"assets/c5137ac2f0fccdba22de2fa414f81de2.webp", "alias":"B"},
+          {"id": 2, "name": "Lírio-da-paz","img":"", "alias":"A"},
+          {"id": 3, "name": "Cacto","img":"", "alias":"C"},
+          {"id": 4, "name": "Lavanda","img":"", "alias":"A"}
+        ]
+      },
+      {
+        "id": 6,
+        "question": "Por último, escolha um filhotinho:",
+        "options": [
+          {"id": 1, "name": "Filhotinho de urso polar","img":"", "alias":"B"},
+          {"id": 2, "name": "Filhotinho de rinoceronte","img":"", "alias":"C"},
+          {"id": 3, "name": "Filhotinho de lontra","img":"", "alias":"A"},
+          {"id": 4, "name": "Filhotinho de onça","img":"", "alias":"A"}
+        ]
+      }
+      
+    ],
+    "results":{
+      "A": "Voce é uma pessoa que gosta de clima ensolarado!",
+      "B": "Voce é uma pessoa que gosta de clima nubaldo!",
+      "C": "Voce é uma pessoa que gosta de clima seco!"
+    }
+  }
+  ]
+}
